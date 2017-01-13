@@ -1,0 +1,51 @@
+//META{"name":"Vinyl_Scratch","description":"Mein selbst erstelltes Discord Theme im MLP Style (Have Fun) Links: <b><a href='https://www.youtube.com/channel/UCT_IcokbWNtFPgdzPm7vQow' target='_blank'>Youtube</a></b> | <b><a href='https://discord.gg/5exvwaB' target='_blank'>Discord</a></b> | <b><a href='' target='_blank'></a></b></span> <span style='position: absolute; bottom: 0; right: 14px;'>By <b><a href='' target='_blank'>FibeHD</a></b></span>","author":"<a href='' target='_blank'>FibeHD</a>","version":"1"}*//{}
+/* "Vinyl_Scratch - DiscordTheme v1" by FibeHD */
+/* Based on "ClearVision v4" by @Zerthox */
+
+/* IMPORT CSS FROM GITHUB */
+@import url(https://gitcdn.xyz/cdn/FibeHD/PonyCSS/8eb86515385199be7d21ad14dd018203609f22fc/css/Vinyl_Scratch.min.css);
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+IMPORTANT: CHANGE BETWEEN DARK AND LIGHT VERSION IN APPEARANCE SETTINGS!
+---------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+================ IMPORTANT LINKS =================
+Latest version: https://git.io/v6Muk
+Changelog: https://git.io/v6r5N
+RemoveShadows theme: https://git.io/v6MuU IMPORTANT: Activate on top of a ClearVision theme!
+---------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+============== CUSTOMIZABLE COLORS ===============
+*/
+:root {
+	--main-color: #e67a27;
+	--hover-color: #b35d1e;
+}
+/*
+--------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+========= CUSTOMIZABLE BACKGROUND IMAGE ==========
+*/
+body::after,
+.callout-backdrop,
+.user-popout::before,
+#user-profile-modal .header::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.light label{
+    background-image: url(https://derpicdn.net/img/view/2017/1/6/1333254__safe_screencap_dj+pon-dash-3_vinyl+scratch_slice+of+life+%28episode%29_breakdancing_headphones_plot_solo.png) !important; /* IMPORTANT: Link must be HTTPS! */
+}
+.radio-theme.dark label{
+    background-image: url(https://derpicdn.net/img/view/2017/1/6/1333254__safe_screencap_dj+pon-dash-3_vinyl+scratch_slice+of+life+%28episode%29_breakdancing_headphones_plot_solo.png) !important; /* IMPORTANT: Link must be HTTPS! */
+}
+/*
+--------------------------------------------------------------------------------------------------------------------------------------------
+*/
